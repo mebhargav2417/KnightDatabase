@@ -50,6 +50,7 @@ CREATE TABLE `sales` (
 
 LOCK TABLES `sales` WRITE;
 /*!40000 ALTER TABLE `sales` DISABLE KEYS */;
+INSERT INTO `sales` VALUES ('ind1','2018-05-02','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin'),('ind1','2018-05-05','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin'),('ind2','2018-05-04','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin'),('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-14 00:00:00','nitin'),('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-14 00:00:00','nitin'),('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-14 00:00:00','nitin');
 /*!40000 ALTER TABLE `sales` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -62,4 +63,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-24 12:06:47
+-- Dump completed on 2018-06-05 16:23:47

@@ -33,6 +33,8 @@ CREATE TABLE `net_profit` (
   `direct_expenses` varchar(45) DEFAULT NULL,
   `indirect_expenses` varchar(45) DEFAULT NULL,
   `netprofit` varchar(45) DEFAULT NULL,
+  `quarter` varchar(5) DEFAULT NULL,
+  `year` varchar(5) DEFAULT NULL,
   `updated_on` datetime DEFAULT NULL,
   `updated_by` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -56,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-24 12:06:46
+-- Dump completed on 2018-06-05 16:23:47

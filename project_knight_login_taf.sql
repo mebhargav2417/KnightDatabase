@@ -18,29 +18,30 @@ USE `project_knight`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `blank_fields`
+-- Table structure for table `login_taf`
 --
 
-DROP TABLE IF EXISTS `blank_fields`;
+DROP TABLE IF EXISTS `login_taf`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `blank_fields` (
-  `userId` varchar(12) NOT NULL,
-  `account_name` varchar(45) DEFAULT NULL,
-  `date` date DEFAULT NULL,
-  `available_balance` varchar(45) DEFAULT NULL,
-  `updated_on` datetime DEFAULT NULL,
-  `updated_by` varchar(45) DEFAULT NULL
+CREATE TABLE `login_taf` (
+  `mail` varchar(128) NOT NULL,
+  `username` varchar(64) NOT NULL,
+  `dwp` varchar(256) NOT NULL,
+  `logindatetime` datetime DEFAULT NULL,
+  `role` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`mail`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `blank_fields`
+-- Dumping data for table `login_taf`
 --
 
-LOCK TABLES `blank_fields` WRITE;
-/*!40000 ALTER TABLE `blank_fields` DISABLE KEYS */;
-/*!40000 ALTER TABLE `blank_fields` ENABLE KEYS */;
+LOCK TABLES `login_taf` WRITE;
+/*!40000 ALTER TABLE `login_taf` DISABLE KEYS */;
+INSERT INTO `login_taf` VALUES ('bhargav4366@gmail.com','bhargav','8a9bcf1e51e812d0af8465a8dbcc9f741064bf0af3b3d08e6b0246437c19f7fb','2018-05-21 12:48:23','Admin'),('test@gmail.com','test','85777f270ad7cf2a790981bbae3c4e484a1dc55e24a77390d692fbf1cffa12fa','2018-05-24 12:55:04','Manager');
+/*!40000 ALTER TABLE `login_taf` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

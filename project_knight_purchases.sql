@@ -50,7 +50,7 @@ CREATE TABLE `purchases` (
 
 LOCK TABLES `purchases` WRITE;
 /*!40000 ALTER TABLE `purchases` DISABLE KEYS */;
-INSERT INTO `purchases` VALUES ('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-04-23 00:00:00','nitin');
+INSERT INTO `purchases` VALUES ('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-04-23 00:00:00','nitin'),('ind1','2018-04-12','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin'),('ind1','2018-04-10','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin'),('ind2','2018-04-15','123456','bhargav','yes','hksdfahfksd','123456','1234','10','2100','12300','12465','','','2018-05-08 00:00:00','nitin');
 /*!40000 ALTER TABLE `purchases` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -63,4 +63,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-24 12:06:47
+-- Dump completed on 2018-06-05 16:23:47
